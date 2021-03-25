@@ -88,8 +88,9 @@ body{
 .main__title {
     color: white;
     font-size: 25px;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-top: 40px;
+    margin-bottom: 20px;
 }
 
 .categories__title{
@@ -98,6 +99,7 @@ body{
     position: absolute;
     padding-left: 30px;
     width: 100%;
+    margin-top: 20px;
 }
 
 .input {
@@ -109,11 +111,11 @@ body{
     font-size: 16px;
     height: 50px;
     padding: 0px 20px;
-    width: 70%;
+    width: 50%;
     box-sizing: border-box;
     outline: none;
     border-color: #f9ddf5;
-    margin-left: 200px;
+    margin-left: 100px;
     margin-bottom: 40px;
    
 
@@ -148,12 +150,12 @@ p{
 
 .carousel-item{
     background-color: rosybrown;
-    min-width: ;: 200px;
+    min-width: 200px;
     height: 250px;
     border-radius: 20px;
     overflow: hidden;
     margin-right: 10px;
-    cursor: pointer;
+    cursor: default;
     transition: 450ms all;
     transform-origin: center left;
     position: relative;
